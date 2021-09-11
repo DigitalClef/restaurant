@@ -1,20 +1,9 @@
-
+import {mainHeader} from './initial.js'
+import {home} from './home.js'
 
 function component() {
-    const header = document.createElement('div');
-    const homeButton = document.createElement('button');
-    const menuButton = document.createElement('button');
-    const contactInfoButton = document.createElement('button');
-
-    homeButton.innerText = 'Home';
-    menuButton.innerText = 'Menu';
-    contactInfoButton.innerText = 'Contact us!'
-
-    header.appendChild(homeButton);
-    header.appendChild(menuButton);
-    header.appendChild(contactInfoButton);
-
-    return header;
+    
+    return home();
 }
 
 document.body.appendChild(component());
