@@ -1,9 +1,10 @@
 import {mainHeader} from './initial.js'
 import {home} from './home.js'
 
-function component() {
-    
-    return home();
-}
+mainHeader().querySelectorAll('button').forEach(button => {
+    button.style.backgroundColor = 'blue';
+});
 
-document.body.appendChild(component());
+
+document.body.appendChild(mainHeader());
+document.body.appendChild(home());

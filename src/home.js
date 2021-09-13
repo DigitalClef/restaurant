@@ -7,7 +7,7 @@ const home = function() {
     restaurantName.innerText = 'Sweet Sushi';
 
     const description = document.createElement('p'); //Creates paragraph with description of restaurant;
-    description.innerText = 'Love sushi? Love dessert? Then come and try our delicious sushi treat!';
+    description.innerText = 'Love sushi? Love dessert? Then come and try our delicious sushi treats!';
 
     const location = document.createElement('div'); //Creates div to contain location information
 
