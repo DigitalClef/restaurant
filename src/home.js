@@ -1,6 +1,7 @@
-export {home} 
 
 const home = function() {
+    const content = document.querySelector('#content');
+    
     const homePage = document.createElement('div'); //Creates homepage div that will contain the content of the webpage
     
     const restaurantName = document.createElement('h1'); //Creates  header with name of restaurant as inner text
@@ -15,7 +16,7 @@ const home = function() {
     locationHeader.innerText = 'Location';
 
     const locationDescription = document.createElement('p'); //Create Location description
-    locationDescription.innerText = '12345 Rawsweet Rd.';
+    locationDescription.innerText = '12345 Rahsweet Rd.';
 
     //Append location information to the locationDiv
     location.appendChild(locationHeader);
@@ -27,5 +28,7 @@ const home = function() {
     homePage.appendChild(description);
     homePage.appendChild(location);
 
-    return homePage
+    content.appendChild(homePage);
 }
+
+export {home} 
