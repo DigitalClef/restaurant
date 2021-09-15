@@ -7,7 +7,7 @@ const menu = function() {
 
     menuPage.appendChild(header);
 
-    menuPage.appendChild(menuItemGenerator('Chocolate Roll', 'Delicious and rich chocolate coating with sweet rice and sweet filling'));
+    menuPage.appendChild(menuItemGenerator('Chocolate Roll', 'Delicious and rich chocolate coating with sweet filling'));
 
     content.appendChild(menuPage);
 }
