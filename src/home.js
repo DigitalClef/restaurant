@@ -5,7 +5,7 @@ const home = function() {
     const homePage = document.createElement('div'); //Creates homepage div that will contain the content of the webpage
     
     const restaurantName = document.createElement('h1'); //Creates  header with name of restaurant as inner text
-    restaurantName.innerText = 'Sweet Sushi';
+    restaurantName.innerText = 'Amaishi';
 
     const description = document.createElement('p'); //Creates paragraph with description of restaurant;
     description.innerText = 'Love sushi? Love dessert? Then come and try our delicious sushi treats!';
