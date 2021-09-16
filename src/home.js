@@ -1,4 +1,3 @@
-
 const home = function() {
     const content = document.querySelector('#content');
     
@@ -22,7 +21,6 @@ const home = function() {
     location.appendChild(locationHeader);
     location.appendChild(locationDescription);
 
-    
     //Append all content to main homepage div
     homePage.appendChild(restaurantName);
     homePage.appendChild(description);

@@ -1,11 +1,9 @@
-
 const menu = function() {
     const content = document.querySelector('#content');
     const menuPage = document.createElement('div');
     menuPage.classList.add('menu-page');
 
-
-    const header = document.createElement('h2');
+    const header = document.createElement('h1');
     header.innerText = 'Take a look at our sweet menu!';
 
     menuPage.appendChild(header);
@@ -18,7 +16,6 @@ const menu = function() {
     menuPage.appendChild(menuItemGenerator('Crispy Rice Roll', 'Fruity wrapping with sweet crispy rice filling'));
     menuPage.appendChild(menuItemGenerator('Goldfish Roll', 'Not quite sweet, but still quite the treat'));
 
-
     content.appendChild(menuPage);
 }
 
@@ -26,7 +23,7 @@ function menuItemGenerator(name, description) {
     const menuItem = document.createElement('div');
     const foodPic = document.createElement('img');
     const foodDescription = document.createElement('p');
-    const itemName = document.createElement('h3');
+    const itemName = document.createElement('h2');
     itemName.innerText = name;
 
     menuItem.classList.add('menu-item');

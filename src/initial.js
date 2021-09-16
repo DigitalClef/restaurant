@@ -11,13 +11,13 @@ const mainHeader = function() {
     menuButton.innerText = 'Menu';
     menuButton.setAttribute('id', 'menu');
     contactInfoButton.innerText = 'Contact us!';
-    contactInfoButton.setAttribute('id', 'contact-info');
+    contactInfoButton.setAttribute('id', 'contact');
     
     header.appendChild(homeButton);
     header.appendChild(menuButton);
     header.appendChild(contactInfoButton);
 
     content.appendChild(header);
-
 }
+
 export {mainHeader}
