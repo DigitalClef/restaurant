@@ -1,19 +1,40 @@
 .menu-item {
-    height: 500px;
-    width: 500px;
+    height: 50vmax;
+    width: 50vmax;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
 .menu-item img {
-    height: 60%;
-    width: 80%;
+    height: 20vmax;
+    width: 30vmax;
+}
+
+.menu-item h2 {
+    word-wrap: break-word;
+    text-align: center;
+    font-size: calc(1.5em + 6px);
+}
+
+.menu-item p {
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .menu-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: rgb(246, 222, 177);
+    height: 100%;
+    width: 100%;
+}
+
+.menu-page h1 {
+    text-align: center;
+    grid-column: 1/3;
+
 }

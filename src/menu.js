@@ -8,9 +8,9 @@ const menu = function() {
 
     menuPage.appendChild(header);
 
-    menuPage.appendChild(menuItemGenerator('Chocolate Roll', 'Delicious and rich chocolate coating with sweet creamy filling'));
+    menuPage.appendChild(menuItemGenerator('Chocolate Roll', 'Delicious and rich chocolate coating with creamy filling'));
     menuPage.appendChild(menuItemGenerator('Banana Roll', 'Sweet tortilla wrapping with creamy banana filling'));
-    menuPage.appendChild(menuItemGenerator('Apple Cinnamon Roll', 'Cococnut rice coating with apple cinnamon flavor'));
+    menuPage.appendChild(menuItemGenerator('Apple Cinnamon Roll', 'Coconut rice coating with apple cinnamon flavor'));
     menuPage.appendChild(menuItemGenerator('Cookies n Cream Roll', 'Classic cookie coating with cream filling'));
     menuPage.appendChild(menuItemGenerator('Peanut Butter and Jelly Roll ', 'Iconic treat in roll form'));
     menuPage.appendChild(menuItemGenerator('Crispy Rice Roll', 'Fruity wrapping with sweet crispy rice filling'));
