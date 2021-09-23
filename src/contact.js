@@ -1,8 +1,10 @@
+//this module will generate the contact page
+
 const contact = function() {
     const content = document.querySelector('#content');
 
-    const menuPage = document.createElement('div');
-    menuPage.classList.add('contact-page');
+    const contactPage = document.createElement('div');
+    contactPage.classList.add('contact-page');
 
     const header = document.createElement('h1');
     header.innerText = 'Contact us!';
@@ -19,10 +21,12 @@ const contact = function() {
     contactInfo.appendChild(phoneNumber);
     contactInfo.appendChild(address);
 
-    menuPage.appendChild(header);
-    menuPage.appendChild(contactInfo);
+    contactPage.appendChild(header);
+    contactPage.appendChild(contactInfo);
 
-    content.appendChild(menuPage);
+    contactPage.classList.add('contact-page');
+
+    content.appendChild(contactPage);
 }
 
 export {contact};

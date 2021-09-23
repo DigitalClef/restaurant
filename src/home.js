@@ -1,10 +1,10 @@
 const home = function() {
-    const content = document.querySelector('#content');
+    const content = document.querySelector('#content'); //Accesses content div
     
     const homePage = document.createElement('div'); //Creates homepage div that will contain the content of the webpage
     
     const restaurantName = document.createElement('h1'); //Creates  header with name of restaurant as inner text
-    restaurantName.innerText = 'Amaishi';
+    restaurantName.innerText = 'Amaishi(Sweet Sushi)';
 
     const description = document.createElement('p'); //Creates paragraph with description of restaurant;
     description.innerText = 'Love sushi? Love dessert? Then come and try our delicious sushi treats!';
@@ -25,6 +25,8 @@ const home = function() {
     homePage.appendChild(restaurantName);
     homePage.appendChild(description);
     homePage.appendChild(location);
+
+    homePage.classList.add('home-page'); //Adds home-page class to homePage div
 
     content.appendChild(homePage);
 }
