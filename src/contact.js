@@ -16,7 +16,7 @@ const contact = function() {
     phoneNumber.innerText = '123-123-1234';
     
     const address = document.createElement('p');
-    address.innerText = 'amaishi@sushi.com';
+    address.innerText = 'sweet@sushi.com';
 
     contactInfo.appendChild(phoneNumber);
     contactInfo.appendChild(address);

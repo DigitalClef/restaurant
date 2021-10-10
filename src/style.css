@@ -23,7 +23,7 @@ body {
     width: 100vw;
     height: 125px;
     offset: 0;
-    background-color: rgb(68, 209, 165);
+    background-color: pink;
 }
 .header button {
     height: 70px;
@@ -49,7 +49,7 @@ body {
     text-align: center;
     top: 100px;
     height: calc(100vh + 125px);
-}p
+}
 
 .home-page div {
     margin-top: 55px;
@@ -59,6 +59,10 @@ body {
 .home-page h1 { 
     font-size: 5.5rem;
     font-family: 'Explora', cursive;
+    background-image: linear-gradient(lightpink, rgb(255, 219, 219), lightpink);
+    padding: 35px;
+    border-radius: 50%;
+    border: 3px palevioletred solid;
 }
 
 .home-page h2 {
@@ -135,10 +139,10 @@ body {
     
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .home-page h1 {
         font-size: 4.5rem;
-        padding-top: 150px;
+        padding-top: 130px;
     }
     .home-page div {
         margin-top: 3px;
