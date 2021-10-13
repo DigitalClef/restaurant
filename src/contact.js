@@ -13,7 +13,7 @@ const contact = function() {
     contactInfo.classList.add('contact-info');
 
     const phoneNumber = document.createElement('p');
-    phoneNumber.innerText = '123-123-1234';
+    phoneNumber.innerText = '(123) 123-1234';
     
     const address = document.createElement('p');
     address.innerText = 'sweet@sushi.com';
