@@ -35,6 +35,7 @@ body {
     height: 125px;
     offset: 0;
     background-color: lightpink;
+    border-bottom: 3px palevioletred solid;
 }
 
 .header button {
@@ -45,7 +46,8 @@ body {
     padding: 7px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    border-radius: 2%;
+    border-radius: 5%;
+    background-color: whitesmoke;
 }
 
 .header button:hover {
