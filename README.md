@@ -7,3 +7,4 @@ I have a better understanding of the way Webpack organizes dependencies. I under
 
 I also learned that people get really creative with making various types of sushi.
 
+[Demo](https://digitalclef.github.io/restaurant/)
